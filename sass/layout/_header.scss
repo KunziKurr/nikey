@@ -1,0 +1,29 @@
+.header {
+    position: relative;
+    width: 50vw;
+    padding: 4rem 1rem;
+    &_logo_img {
+        position: absolute;
+        left: 3rem;
+        height: 6rem;
+    }
+    &_nav_ul {
+        position: absolute;
+        right: 0;
+        list-style: none;
+        &_li {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            padding: 0 1rem;
+            &_span {
+                font-size: 1.6rem;
+                text-transform: uppercase;
+                font-family: Montserrat-Regular;
+            }
+            &_img {
+                position: absolute;
+            }
+        }
+    }
+}

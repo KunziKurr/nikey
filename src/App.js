@@ -1,5 +1,7 @@
 import './build/master.css'
 import Header from './comps/Header';
+import Body from './comps/Body';
+
 function App() {
   return (
     <div className="App">
@@ -9,7 +11,7 @@ function App() {
           
               <Header />
          
-          
+              <Body />
         </div>
       </div>
     </div>
