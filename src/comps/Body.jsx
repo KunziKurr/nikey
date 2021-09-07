@@ -25,6 +25,9 @@ const Body = () => {
         <div className="j_section_end" style={style}>
             {/* <img src={room} alt="" className="j_section_img" /> */}
         </div>
+        <span className="j_section_span_1">Nike Air Jordan</span>
+        <span className="j_section_span_2">Why Not Zer0'3 "UNITE"</span>
+
        </div>
     )
 }
