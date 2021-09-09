@@ -1,6 +1,5 @@
 import React from 'react'
 import J from '../assets/J.png'
-import J2 from '../assets/J2.png'
 import J4 from '../assets/J4.png'
 import room from '../assets/room.png'
 
