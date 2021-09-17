@@ -1,5 +1,4 @@
 // MEDIA QUERY MANAGER
-
 /*
   0-600px : PHONE
   600-900px: Tablet Portrait
@@ -17,8 +16,7 @@
   ORDER BASE + TYPOGRAPHY > general layout + grid > page layout > componenys
   1em =16px
 */
-
-$breakpoints: ( xs: 576px, sm: 768px, md: 992px, lg: 1200px, xl: 1441px, px2: 2, px3: 3, px4: 4, tbmax:1024px, orientation_potrait:portrait, orientation_landscape:landscape, lgb:1366px, mdb:1280px);
+$breakpoints: ( xs: 576px, sm: 768px, md: 992px, lg: 1200px, xl: 1440px, px2: 2, px3: 3, px4: 4, tbmax:1024px, orientation_potrait:portrait, orientation_landscape:landscape, lgb:1366px, mdb:1280px);
 // Respond above.
 @mixin respond-above($breakpoint) {
     // If the breakpoint exists in the map.
